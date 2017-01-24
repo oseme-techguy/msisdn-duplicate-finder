@@ -1,0 +1,19 @@
+{
+  "name": "msisdn-duplicate-finder",
+  "version": "0.0.1",
+  "description": "MSISDN Duplicate Finder",
+  "main": "find_duplicates.js",
+  "author": "Odigie Oseme - osemeodigie@yahoo.com",
+  "scripts": {
+    "start": "node find_duplicates.js",
+    "postmerge": "npm install"
+  },
+  "dependencies": {
+    "file-save": "^0.2.0",
+    "readlines": "^0.2.0"
+  },
+  "devDependencies": {
+    "should": "^11.0.0",
+    "supertest": "^2.0.0"
+  }
+}
