@@ -14,7 +14,7 @@ var files_to_process = {
     "duplicates": "duplicate_batch.csv",
 }
 
-var first_array = [], second_array = [], Duplicate = {};
+var Duplicate = {};
 
 var write_to_csv_file = function(file, data_on_line){
     file_system.appendFile(file, data_on_line+"\r\n", function (err) {
